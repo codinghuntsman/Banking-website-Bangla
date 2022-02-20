@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="section-container">
+        <div id="row">
+            <h1 id="banking-title">আপনার সম্পদ <br> <span id="title-middle-part"> আমাদের নিকট </span> আমানত</h1>
+            <div id="top-part-column">
+                <div class="column-1">
+                    <h1 class="deposite-text">সর্বমোট জমা</h1>
+                    <h2 class="dolar-sign">৳<span id="deposite-balance">00</span></h2>
+                </div>
+                <div class="column-2">
+                    <h1 class="withdraw-text">সর্বমোট উত্তোলন</h1>
+                    <h2 class="dolar-sign">৳<span id="withdraw-amount">00</span></h2>
+                </div>
+                <div class="column-3">
+                    <h1 class="total-balance">টোটাল ব্যালেন্স</h1>
+                    <h2 class="dolar-sign">৳<span id="total-balance">100</span></h2>
+                </div>
+            </div>
+            <p></p>
+
+            <!------------------- Second part start --------------------->
+            <div id="column">
+                <div id="column-1">
+                    <h3 id="depo-text">টাকা জমা করুন</h3>
+                    <form action="#">
+                        <input id="deposite-field" type="text" name="valuinput" class="doposite-input"
+                            placeholder="টাকার পরিমান">
+                        <br>
+                        <button class="submit-btnn" id="deposite-button">জমা রাখুন</button>
+                    </form>
+                </div>
+                <div id="column-2">
+                    <h3 id="depo-text">টাকা উত্তোলন করুন</h3>
+                    <form action="#">
+                        <input id="withdraw-field" type="text" name="valuinput" class="doposite-input"
+                            placeholder="টাকার পরিমান">
+                        <br>
+                        <button class="submit-btnn" id="withdraw-button">উত্তোলন করুন</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

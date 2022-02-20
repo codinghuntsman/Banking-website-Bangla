@@ -1,0 +1,175 @@
+/* Welcome Form style */
+.welcome-form{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1cdbd5;
+}
+.page-title{
+    text-align: center;
+    color: #4400c2;
+    font-weight: bold;
+    font-size: 30px;
+}
+.login-part{
+    margin-left: 25%;
+}
+.page-title-text{
+    color: #d30069;
+    font-weight: bold;
+}
+.login{
+    margin-bottom: 0;
+}
+.input-email{
+    width: 65%;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+}
+.input-password{
+    width: 65%;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 5px;
+}
+.submit-btn{
+    width: 120px;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #0068ad;
+    border: none;
+}
+.submit-btn:hover{
+    background-color: #d30069;
+}
+
+/* Banking form style*/
+#banking-title{
+    font-size: 35px;
+    color: #df3288;
+    font-weight: bold;
+    text-align: center;
+}
+#title-middle-part{
+    color: #288351;
+    font-weight: bold;
+}
+#row{
+    width: 80%;
+    margin: auto;
+}
+#top-part-column{
+    display: flex;
+    justify-content: center;
+}
+.column-1{
+    width: 250px;
+    margin-right: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #5bffa5;
+}
+.column-2{
+    background-color: #47fff9;
+    width: 250px;
+    margin-right: 5px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.column-3{
+    background-color: #d5ff3c;
+    width: 250px;
+    margin-right: 5px;
+    padding: 15px;
+    border-radius: 5px;
+}
+#deposite-balance{
+    font-size: 28px;
+    color: #000000;
+}
+#withdraw-amount{
+    font-size: 28px;
+    color: #000000;
+}
+#total-balance{
+    font-size: 28px;
+    color: #000000;
+}
+.dolar-sign {
+    color: #ba66ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.deposite-text{
+    margin: 0;
+    color: #8b33ff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.withdraw-text{
+    margin: 0;
+    color: #8b33ff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.total-balance{
+    margin: 0;
+    color: #8b33ff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+#column{
+     display: flex;
+     justify-content: center;
+}
+#column-1{
+    width: 400px;
+    padding: 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: #8d058d;
+}
+#depo-text{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+.doposite-input{
+    width: 97%;
+    padding: 7px;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 3px;
+}
+ .submit-btnn{
+    width: 120px;
+    height: 43px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3cc579;
+}
+.submit-btnn:hover{
+     background-color: #ff3a9c;
+ }
+#column-2{
+    width: 400px;
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #a50e59;
+}
+
+
+
+
+
